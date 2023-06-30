@@ -1,21 +1,21 @@
+
+
 # Resume
+
+<div style="float: right; margin-left: 10px;">
+  <img src="й.jpg">
+</div>
 
 ## Anastasiya Fiodarava           
 ### Contacts:
 - LinkedIn: [linkedin.com/in/kaiadelina](https://www.linkedin.com/in/kaiadelina/)
 - GitHub: [github.com/kaiadelina](https://github.com/kaiadelina)
-- Discord: Nestiw(@kaiadelina)
-_________________________
-![](https://vscode.dev/github/kaiadelina/rsschool-cv/blob/gh-pages/IMG_20210205_161553_161.jpg)        
+- Discord: Nestiw(@kaiadelina)                               
+_________________________     
 
-### Summary
+### | Summary
 I am a software engineer with over six months of experience working in a company. I initially self-studied Java and am currently working with the Play Framework, as well as learning Scala, JavaScript, and HTML on the job. I am eager to learn and expand my skills, and have experience working on educational projects to solidify my knowledge and abilities in programming.
 
-<span style="font-size: 2em">&#x2193;</span>
-<span style="margin-right: 150px;"></span>
-<span style="font-size: 2em">&#x2193;</span>
-<span style="margin-right: 150px;"></span>
-<span style="font-size: 2em">&#x2193;</span>
 
 ### | Skills 
 - Programming languages: Java, Scala
@@ -24,23 +24,24 @@ I am a software engineer with over six months of experience working in a company
 - Testing: Selenide, Mockito
 
 ### | Code Examples
+*You can see my pet project here: https://github.com/kaiadelina/Pet-blog*
 ```java
-public class Example {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
+@Autowired
+    private ArticleService articleService;
+
+    @GetMapping(value = "/")
+    public List<Article> getArticles() {
+        return articleService.getArticles();
     }
-}
 ```
 
 ## | Work Experience
-- Software Engineer, Company Name, year - present
-  - Developing Java and Scala applications using Spring and Play Framework
+- Software Engineer, DocuSketch, year - present
+  - Developing Java and Scala applications using Play Framework, HTML and JQwery
   - Participating in the development of test scenarios using Selenide
 
 ## | Education
-- Java Development Courses, Company Name, year
-- Scala Development Courses, Company Name, year
-- English Language Courses, School Name, year
+- Java Development Courses, Epam, 2022
 
 ## | Language Skills
 - English: A2-B1 level <br>

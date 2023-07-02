@@ -1,6 +1,6 @@
 
 
-# Resume
+# CV
 
 <div style="float: right; margin-left: 10px;">
   <img src="й.jpg">

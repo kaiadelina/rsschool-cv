@@ -1,2 +1,2 @@
 # rsschool-cv
-https://github.com/kaiadelina/rsschool-cv/blob/gh-pages/.idea/codeStyles/cv.md
+https://github.com/kaiadelina/rsschool-cv/blob/gh-pages/cv.md

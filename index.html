@@ -2,8 +2,143 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <title> Title </title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <header>
+      <div class="cv-button">
+        <h2> <b> CV </b> </h2>
+      </div>
+      <div class="name">
+        <h1>Anastasiya Fiodarava</h1>
+      </div>
+    </header>
+
+    <div class="animation">
+      
+      <div id="left-column">
+          <canvas id="c"></canvas>
+      </div>
+      <div id="right-column">
+        <canvas id="d"></canvas>
+      </div>
+    </div>
+
+
+    <div id="main-container">
+      <div class="avatar-img">
+        <img src="photo.jpg" alt="photo">
+      </div>
+      <div id="summary">
+        <div class="summary-text">
+          <div class="button-navigation">
+            <nav>
+              <ul>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work-experience">Work Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#language-skills">Language Skills</a></li>
+              </ul>
+            </nav>
+          </div>
+          <p>I am a software engineer with over six months of experience working in a company. I initially self-studied Java and am currently working with the Play Framework, as well as learning Scala, JavaScript, and HTML on the job. I am eager to learn and expand my skills, and have experience working on educational projects to solidify my knowledge and abilities in programming.</p>
+          
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="contact-skills">
+      <div class="contacts">
+      <section id="contacts"></section>
+        <h2>Contacts:</h2>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/kaiadelina/"><b>LinkedIn:</b></a> www.linkedin.com/in/kaiadelina</li>
+          <li><a href="https://github.com/kaiadelina"><b>GitHub:</b></a> github.com/kaiadelina</li>
+          <li><b>Discord:</b> Nestiw(@kaiadelina)</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="skills">
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Programming languages: <b>Java</b>, Scala</li><br>
+          <li>Frameworks: <b>Play Framework</b>, Spring</li><br><br>
+          <li>Build tools: <b>SBT</b>, Maven, Gradle</li><br>
+          <li>Development tools: <b>Git</b></li><br>
+          <li>Testing: Selenide, Mockito</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+
+  <div class="work-experience">
+    <section id="work-experience">
+      <h2>Work Experience</h2>
+      <ul>
+        <li><b>Software Engineer, DocuSketch, year - present</b></li>
+        <ul>
+          <li>Developing Java and Scala applications using Play Framework, HTML and JQwery</li>
+          <li>Participating in the development of test scenarios using Selenide</li>
+        </ul>
+      </ul>
+    </section>
+  </div>
+
+    <div class="code-examples">
+      <div class="box-container">
+      <section id="code-examples">
+        <h2>Code Examples</h2>
+        <p>You can see my pet project here: <a href="https://github.com/kaiadelina/Pet-blog">https://github.com/kaiadelina/Pet-blog</a></p>
+        <div class="column">
+          <div class="box">
+            <pre><code>@Autowired
+                    private ArticleService articleService;
+
+                    @GetMapping(value = "/")
+                    public List&lt;Article&gt; getArticles() {
+                    return articleService.getArticles();}
+            </code></pre>
+          </div>
+        </div>
+      </section>
+      </div>
+    </div>
+
+    <div class="edu-lang">
+    <div class="education">
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>Java Development Courses, Epam, 2022</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="language-skills">
+      <section id="language-skills">
+        <h2>Language Skills</h2>
+        <p>English: <b>B1</b> </p>
+      </section>
+    </div>
+  </div>
+    </main>
+
+    <footer>
+        
+        <div class="logo-img">
+          <img src="rs_school_js.svg" alt="logo">
+        </div>
+        <a href="https://github.com/kaiadelina">GitHub</a>         2023         
+        <a href="https://htmlacademy.ru/intensive/java">HTML Academy Java-разработчик</a>
+    </footer>
+ 
+
+    <script src="scripts.js\script1.js"></script>
+    <script src="scripts.js\script2.js"></script>
   </body>
 </html>

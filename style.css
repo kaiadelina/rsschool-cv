@@ -1,5 +1,233 @@
 
-body {}
-  h1 {}
-  p {}
+
+  body {
+    background-color:#e9feefdb;
+    overflow-x: hidden;
+    margin: 0 auto; /* устанавливаем отступы сверху и снизу в 0 и центрируем блок по горизонтали */
+    max-width: 1500px;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
   
+/*____________TOP______________________________________________________________________*/
+
+  .cv-button {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 250px;
+  }
+  
+  .name {
+    margin-left: 500px;
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  /*______________AVATAR_________________________________________________________*/
+
+  .avatar-img {
+    width: 150px;
+    height: 220px;
+    border-radius: 20%;
+    overflow: hidden;
+    margin-right: 20px; /* Добавляем отступ справа */
+    margin-left: 4cm;
+  }
+  
+  .avatar-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+
+
+  /*___________________________________________________________________________________________*/
+  
+  #main-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+     
+  }
+  
+  
+  #summary {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 20px;
+    flex: 1;
+  }
+  
+  .summary-text {
+    width: calc(100% - 6cm); 
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 2cm; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /*________________NAVIGATION____________________________________________________________________________*/
+  
+  .button-navigation {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row; 
+
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #6a836f;
+    border-radius: 25px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto; 
+  }
+  
+  nav li {
+    margin: 10px;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  nav li a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /*_________CONTACT - SKILLS____________________________________________________*/
+
+  .contact-skills {
+    margin-left: 4cm;
+    margin-bottom: 20px;
+    transform: scale(1.1);
+  }
+
+  .contact-skills a{
+    color: #000000;
+  }
+  
+  .contacts, .skills {
+    display: inline-block;
+    margin: 0 60px;
+  }
+  
+  #skills {
+    column-count: 2;
+    column-gap: 40px;
+    column-fill: balance;
+  }
+
+  /*____________WORK - EXP__________________________________________________________*/
+
+  .work-experience {
+    margin-top: 60px;
+    margin-left: 7cm;
+    margin-bottom: 20px;
+    transform: scale(1.2);
+  }
+
+  .code-examples {
+    margin-top: 60px;
+    margin-left: 7cm;
+    margin-bottom: 20px;
+    transform: scale(1.2);
+  }
+
+  .code-examples a {
+    color: #000000;
+  }
+
+  .edu-lang {
+    margin-left: 4cm;
+    margin-bottom: 50px;
+    transform: scale(1.1);
+  }
+
+  .education, .language-skills {
+    display: inline-block;
+    margin: 0 110px;
+  }
+
+  footer {
+    margin-top: 60px;
+    margin-left: 3cm;
+    margin-bottom: 20px;
+    flex-direction: row;
+  }
+  
+  footer a {
+    color: #000000;
+  }
+  
+  .logo-img {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 110px;
+    height: 40px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-left: auto;
+  }
+  
+  .logo-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+  }
+  
+
+  /*_____________________________CODE ANIMATION__________________________________________________*/
+ 
+  
+  #left-column {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 2cm;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  #right-column {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 2cm;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+
+  canvas {display:block;}

@@ -7,52 +7,75 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <video src="video.mp4" class="video" title="Anastasiya Fiodarava" autoplay loop muted style="height: 150px;"></video>
-        <h1>Anastasiya Fiodarava</h1>
-        <p>Software Engineer</p>
-        <nav>
-            <a href="https://www.linkedin.com/in/kaiadelina/" target="_blank">LinkedIn Profile</a> | 
-            <a href="https://github.com/kaiadelina" target="_blank">GitHub</a>
-        </nav>
-        <p>Location: Minsk, Belarus (open for relocation)</p>
-    </header>
+  <header>
+    <div class="header-content">
+        <div class="main-info">
+            <img src="ava.png" alt="Anastasiya Fiodarava" class="profile-picture">
+            <div class="header-text">
+                <h1>Anastasiya Fiodarava</h1>
+                <p>Software Engineer</p>
+                <p>Location: Minsk, Belarus (open for relocation)</p>
+                <a class="link" href="https://www.linkedin.com/in/kaiadelina/" target="_blank">LinkedIn Profile</a> | 
+                <a class="link" href="https://github.com/kaiadelina" target="_blank">GitHub</a>
+            </div>
+        </div>
+        
+        <div class="nav-section">
+            <nav>
+                <a href="#skills" class="beetle-1">Skills</a>
+                <a href="#experience" class="beetle-2">Experience</a>
+                <a href="#educationalProjects" class="beetle-3">Projects</a>
+                <a href="#codeExample" class="beetle-4">Code </a>
+                <a href="#courses" class="beetle-5">Courses</a>
+            </nav>
+        </div>
+
+        <div class="description">
+          <p>As a software engineer, I excel in design, debugging, and testing. I am proficient in Java, with experience in front-end technologies. With strong collaboration skills and adaptability to new technologies, I am dedicated to developing quality software solutions.</p>
+      </div>
+    </div>
+</header>
     <main>
-        <section id="profile">
-            <h2>Profile</h2>
-            <p>As a software engineer, I excel in design, debugging, and testing. I am proficient in Java, with experience in front-end technologies. With strong collaboration skills and adaptability to new technologies, I am dedicated to developing quality software solutions.</p>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <h3>Technologies</h3>
-            <ul>
-                <li>Java</li>
-                <li>Unit testing</li>
-                <li>UI testing</li>
-                <li>MongoDB</li>
-                <li>Git</li>
-                <li>Docker</li>
-                <li>Krpano</li>
-                <li>AWS (S3)</li>
-            </ul>
-            <h3>Frameworks</h3>
-            <ul>
-                <li>Play framework</li>
-                <li>Spring</li>
-                <li>Selenide</li>
-            </ul>
-            <h3>Build Tools</h3>
-            <ul>
-                <li>SBT</li>
-                <li>Gradle</li>
-                <li>Maven</li>
-            </ul>
-            <h3>Other</h3>
-            <ul>
-                <li>AI Chatbots</li>
-                <li>Canva</li>
-            </ul>
-        </section>
+        
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="technologies">
+                <h3>Technologies</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>MongoDB</li>
+                    <li>Git</li>
+                    <li>Docker</li>
+                    <li>Krpano</li>
+                    <li>AWS (S3)</li>
+                    <li>Basic FE</li>
+                    <li>JQuery</li>
+                    <li>Unit testing</li>
+                    <li>UI testing</li>
+                </ul>
+            </div>
+            <div class="other-skills">
+                <h3>Frameworks</h3>
+                <ul>
+                    <li>Play framework</li>
+                    <li>Spring</li>
+                    <li>Selenide</li>
+                </ul>
+                <h3>Build Tools</h3>
+                <ul>
+                    <li>SBT</li>
+                    <li>Gradle</li>
+                    <li>Maven</li>
+                </ul>
+                <h3>Other</h3>
+                <ul>
+                    <li>AI Chatbots</li>
+                    <li>Canva</li>
+                </ul>
+            </div>
+        </div>
+    </section>
         <section id="experience">
             <h2>Work Experience</h2>
             <h3>Software Engineer at Immoviewer</h3>
@@ -100,6 +123,12 @@
                 <li>FEFU: Interactive SQL (2022)</li>
                 <li>Epam: Java Basic (2022)</li>
             </ul>
+        </section>
+
+        <section id="goodbye">
+
+          <h2>Have a nice day!</h2>
+          <p>Thanks for youre time, bye-bye </p>
         </section>
     </main>
     <footer>

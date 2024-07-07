@@ -1,21 +1,45 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     background: #f4f4f4;
     color: #333;
 }
 
-main {
+header, main, footer {
     width: 80%;
-    margin: 20px auto;
+    margin: auto;
     padding: 20px;
     background: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-h1 {
-    font-size: 24px;
-    color: #5a5a5a;
+header h1, header p {
     text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+a {
+    color: #00f;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: white;
 }

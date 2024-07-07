@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <video src="video.mp4" class="video" alt="Anastasiya Fiodarava" autoplay loop muted style="height: 150px;"></video>
+        <video src="video.mp4" class="video" title="Anastasiya Fiodarava" autoplay loop muted style="height: 150px;"></video>
         <h1>Anastasiya Fiodarava</h1>
         <p>Software Engineer</p>
         <nav>
@@ -58,9 +58,45 @@
             <h3>Software Engineer at Immoviewer</h3>
             <p>Designed scalable systems and services using Java, JS, and Scala languages. Experienced with microservices architecture and have worked with krpano for creating virtual tours and immersive panoramas. Developed and implemented new solutions utilizing OOP and dependencies. Skilled in using Jira (Kanban system).</p>
         </section>
+
+        <section id="educationalProjects">
+          <h2>Educational Projects</h2>
+          <ul>
+              <li>
+                  <strong>Simple blogging platform (Java):</strong> 
+                  <a href="https://github.com/kaiadelina/Pet-blog" target="_blank">View Code</a> 
+              </li>
+              <li>
+                  <strong>ChatGPT for work:</strong> A presentation where I was the main speaker, showcasing the capabilities of ChatGPT integrated into workplace environments.
+                  <a href="https://www.youtube.com/watch?v=uApHVW50wBI&t=2894s" target="_blank">View video</a> 
+              </li>
+          </ul>
+      </section>
+
+        <section id="codeExample">
+          <h2>Code Example</h2>
+          <pre><code>public static int sumNoDuplicates(int[] arr) {
+  Map&lt;Integer, Integer&gt; countMap = new HashMap&lt;&gt;();
+
+  for (int num : arr) {
+      countMap.put(num, countMap.getOrDefault(num, 0) + 1);
+  }
+
+  int sum = 0;
+
+  for (Map.Entry&lt;Integer, Integer&gt; entry : countMap.entrySet()) {
+      if (entry.getValue() == 1) {
+          sum += entry.getKey();
+      }
+  }
+
+  return sum;
+}</code></pre>
+      </section>
         <section id="courses">
             <h2>Courses</h2>
             <ul>
+                <li>English: Intermediate</li>
                 <li>FEFU: Interactive SQL (2022)</li>
                 <li>Epam: Java Basic (2022)</li>
             </ul>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anastasiya Fiodarava - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+        <div class="main-info">
+            <img src="ava.png" alt="Anastasiya Fiodarava" class="profile-picture">
+            <div class="header-text">
+                <h1>Anastasiya Fiodarava</h1>
+                <p>Software Engineer</p>
+                <p>Location: Minsk, Belarus (open for relocation)</p>
+                <a class="link" href="https://www.linkedin.com/in/kaiadelina/" target="_blank">LinkedIn Profile</a> | 
+                <a class="link" href="https://github.com/kaiadelina" target="_blank">GitHub</a>
+            </div>
+        </div>
+        
+        <div class="nav-section">
+            <nav>
+                <a href="#skills" class="beetle-1">Skills</a>
+                <a href="#experience" class="beetle-2">Experience</a>
+                <a href="#educationalProjects" class="beetle-3">Projects</a>
+                <a href="#codeExample" class="beetle-4">Code </a>
+                <a href="#courses" class="beetle-5">Courses</a>
+            </nav>
+        </div>
+
+        <div class="description">
+          <p>As a software engineer, I excel in design, debugging, and testing. I am proficient in Java, with experience in front-end technologies. With strong collaboration skills and adaptability to new technologies, I am dedicated to developing quality software solutions.</p>
+      </div>
+    </div>
+</header>
+    <main>
+        
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="technologies">
+                <h3>Technologies</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>MongoDB</li>
+                    <li>Git</li>
+                    <li>Docker</li>
+                    <li>Krpano</li>
+                    <li>AWS (S3)</li>
+                    <li>Basic FE</li>
+                    <li>JQuery</li>
+                    <li>Unit testing</li>
+                    <li>UI testing</li>
+                </ul>
+            </div>
+            <div class="other-skills">
+                <h3>Frameworks</h3>
+                <ul>
+                    <li>Play framework</li>
+                    <li>Spring</li>
+                    <li>Selenide</li>
+                </ul>
+                <h3>Build Tools</h3>
+                <ul>
+                    <li>SBT</li>
+                    <li>Gradle</li>
+                    <li>Maven</li>
+                </ul>
+                <h3>Other</h3>
+                <ul>
+                    <li>AI Chatbots</li>
+                    <li>Canva</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <h3>Software Engineer at Immoviewer</h3>
+            <p>Designed scalable systems and services using Java, JS, and Scala languages. Experienced with microservices architecture and have worked with krpano for creating virtual tours and immersive panoramas. Developed and implemented new solutions utilizing OOP and dependencies. Skilled in using Jira (Kanban system).</p>
+        </section>
+
+        <section id="educationalProjects">
+          <h2>Educational Projects</h2>
+          <ul>
+              <li>
+                  <strong>Simple blogging platform (Java):</strong> 
+                  <a href="https://github.com/kaiadelina/Pet-blog" target="_blank">View Code</a> 
+              </li>
+              <li>
+                  <strong>ChatGPT for work:</strong> A presentation where I was the main speaker, showcasing the capabilities of ChatGPT integrated into workplace environments.
+                  <a href="https://www.youtube.com/watch?v=uApHVW50wBI&t=2894s" target="_blank">View video</a> 
+              </li>
+          </ul>
+      </section>
+
+        <section id="codeExample">
+          <h2>Code Example</h2>
+          <pre><code>public static int sumNoDuplicates(int[] arr) {
+  Map&lt;Integer, Integer&gt; countMap = new HashMap&lt;&gt;();
+
+  for (int num : arr) {
+      countMap.put(num, countMap.getOrDefault(num, 0) + 1);
+  }
+
+  int sum = 0;
+
+  for (Map.Entry&lt;Integer, Integer&gt; entry : countMap.entrySet()) {
+      if (entry.getValue() == 1) {
+          sum += entry.getKey();
+      }
+  }
+
+  return sum;
+}</code></pre>
+      </section>
+        <section id="courses">
+            <h2>Courses</h2>
+            <ul>
+                <li>English: Intermediate</li>
+                <li>FEFU: Interactive SQL (2022)</li>
+                <li>Epam: Java Basic (2022)</li>
+            </ul>
+        </section>
+
+        <section id="goodbye">
+
+          <h2>Have a nice day!</h2>
+          <p>Thanks for youre time, bye-bye </p>
+        </section>
+    </main>
+    <footer>
+        <p>2024 | <a href="https://github.com/kaiadelina">kaiadelina</a></p>
+        <p><a href="https://rs.school/courses/javascript-ru"><img src="rsschool-logo.svg" alt="Course Logo" style="height:30px;"></a></p>
+    </footer>
+</body>
+</html>
